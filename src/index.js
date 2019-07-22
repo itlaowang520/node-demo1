@@ -6,7 +6,7 @@ import databaseConfig from './models/config';
 import cors from 'koa2-cors';
 import logger from './utils/logger';
 
-const port = 3000;
+const port = 3009;
 const app = new Koa();
 
 process.on('unhandledRejection', (err) => {

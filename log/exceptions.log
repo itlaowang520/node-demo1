@@ -10110,3 +10110,234 @@
        method: '_tickCallback',
        native: false } ],
   timestamp: '19-06-24 09:51:00' }
+{ error:
+   { Error: listen EADDRINUSE: address already in use :::3009
+       at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+       at listenInCluster (net.js:1318:12)
+       at Server.listen (net.js:1405:7)
+       at Application.listen (/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js:65:19)
+       at listen (/Users/m/Desktop/others/myHub/node-demo1/src/index.js:75:9)
+       at process._tickCallback (internal/process/next_tick.js:68:7)
+     code: 'EADDRINUSE',
+     errno: 'EADDRINUSE',
+     syscall: 'listen',
+     address: '::',
+     port: 3009 },
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: listen EADDRINUSE: address already in use :::3009\nError: listen EADDRINUSE: address already in use :::3009\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Application.listen (/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js:65:19)\n    at listen (/Users/m/Desktop/others/myHub/node-demo1/src/index.js:75:9)\n    at process._tickCallback (internal/process/next_tick.js:68:7)',
+  stack:
+   'Error: listen EADDRINUSE: address already in use :::3009\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Application.listen (/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js:65:19)\n    at listen (/Users/m/Desktop/others/myHub/node-demo1/src/index.js:75:9)\n    at process._tickCallback (internal/process/next_tick.js:68:7)',
+  exception: true,
+  date: 'Sun Jul 21 2019 10:01:58 GMT+0800 (GMT+08:00)',
+  process:
+   { pid: 2448,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/m/Desktop/others/myHub/node-demo1',
+     execPath: '/usr/local/bin/node',
+     version: 'v10.15.3',
+     argv:
+      [ '/usr/local/bin/node',
+        '/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js' ],
+     memoryUsage:
+      { rss: 55377920,
+        heapTotal: 36945920,
+        heapUsed: 17388904,
+        external: 18409276 } },
+  os:
+   { loadavg: [ 2.24658203125, 1.74462890625, 1.66943359375 ],
+     uptime: 47434 },
+  trace:
+   [ { column: 14,
+       file: 'net.js',
+       function: 'Server.setupListenHandle [as _listen2]',
+       line: 1270,
+       method: 'setupListenHandle [as _listen2]',
+       native: false },
+     { column: 12,
+       file: 'net.js',
+       function: 'listenInCluster',
+       line: 1318,
+       method: null,
+       native: false },
+     { column: 7,
+       file: 'net.js',
+       function: 'Server.listen',
+       line: 1405,
+       method: 'listen',
+       native: false },
+     { column: 19,
+       file:
+        '/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js',
+       function: 'Application.listen',
+       line: 65,
+       method: 'listen',
+       native: false },
+     { column: 9,
+       file: '/Users/m/Desktop/others/myHub/node-demo1/src/index.js',
+       function: 'listen',
+       line: 75,
+       method: null,
+       native: false },
+     { column: 7,
+       file: 'internal/process/next_tick.js',
+       function: 'process._tickCallback',
+       line: 68,
+       method: '_tickCallback',
+       native: false } ],
+  timestamp: '19-07-21 10:01:58' }
+{ error:
+   { Error: listen EADDRINUSE: address already in use :::3009
+       at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+       at listenInCluster (net.js:1318:12)
+       at Server.listen (net.js:1405:7)
+       at Application.listen (/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js:65:19)
+       at listen (/Users/m/Desktop/others/myHub/node-demo1/src/index.js:75:9)
+       at process._tickCallback (internal/process/next_tick.js:68:7)
+     code: 'EADDRINUSE',
+     errno: 'EADDRINUSE',
+     syscall: 'listen',
+     address: '::',
+     port: 3009 },
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: listen EADDRINUSE: address already in use :::3009\nError: listen EADDRINUSE: address already in use :::3009\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Application.listen (/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js:65:19)\n    at listen (/Users/m/Desktop/others/myHub/node-demo1/src/index.js:75:9)\n    at process._tickCallback (internal/process/next_tick.js:68:7)',
+  stack:
+   'Error: listen EADDRINUSE: address already in use :::3009\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Application.listen (/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js:65:19)\n    at listen (/Users/m/Desktop/others/myHub/node-demo1/src/index.js:75:9)\n    at process._tickCallback (internal/process/next_tick.js:68:7)',
+  exception: true,
+  date: 'Sun Jul 21 2019 10:02:02 GMT+0800 (GMT+08:00)',
+  process:
+   { pid: 2463,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/m/Desktop/others/myHub/node-demo1',
+     execPath: '/usr/local/bin/node',
+     version: 'v10.15.3',
+     argv:
+      [ '/usr/local/bin/node',
+        '/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js' ],
+     memoryUsage:
+      { rss: 55013376,
+        heapTotal: 36421632,
+        heapUsed: 16390656,
+        external: 18428368 } },
+  os:
+   { loadavg: [ 2.06640625, 1.71533203125, 1.6591796875 ],
+     uptime: 47438 },
+  trace:
+   [ { column: 14,
+       file: 'net.js',
+       function: 'Server.setupListenHandle [as _listen2]',
+       line: 1270,
+       method: 'setupListenHandle [as _listen2]',
+       native: false },
+     { column: 12,
+       file: 'net.js',
+       function: 'listenInCluster',
+       line: 1318,
+       method: null,
+       native: false },
+     { column: 7,
+       file: 'net.js',
+       function: 'Server.listen',
+       line: 1405,
+       method: 'listen',
+       native: false },
+     { column: 19,
+       file:
+        '/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js',
+       function: 'Application.listen',
+       line: 65,
+       method: 'listen',
+       native: false },
+     { column: 9,
+       file: '/Users/m/Desktop/others/myHub/node-demo1/src/index.js',
+       function: 'listen',
+       line: 75,
+       method: null,
+       native: false },
+     { column: 7,
+       file: 'internal/process/next_tick.js',
+       function: 'process._tickCallback',
+       line: 68,
+       method: '_tickCallback',
+       native: false } ],
+  timestamp: '19-07-21 10:02:02' }
+{ error:
+   { Error: listen EADDRINUSE: address already in use :::3009
+       at Server.setupListenHandle [as _listen2] (net.js:1270:14)
+       at listenInCluster (net.js:1318:12)
+       at Server.listen (net.js:1405:7)
+       at Application.listen (/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js:65:19)
+       at listen (/Users/m/Desktop/others/myHub/node-demo1/src/index.js:75:9)
+       at process._tickCallback (internal/process/next_tick.js:68:7)
+     code: 'EADDRINUSE',
+     errno: 'EADDRINUSE',
+     syscall: 'listen',
+     address: '::',
+     port: 3009 },
+  level: '\u001b[31merror\u001b[39m',
+  message:
+   'uncaughtException: listen EADDRINUSE: address already in use :::3009\nError: listen EADDRINUSE: address already in use :::3009\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Application.listen (/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js:65:19)\n    at listen (/Users/m/Desktop/others/myHub/node-demo1/src/index.js:75:9)\n    at process._tickCallback (internal/process/next_tick.js:68:7)',
+  stack:
+   'Error: listen EADDRINUSE: address already in use :::3009\n    at Server.setupListenHandle [as _listen2] (net.js:1270:14)\n    at listenInCluster (net.js:1318:12)\n    at Server.listen (net.js:1405:7)\n    at Application.listen (/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js:65:19)\n    at listen (/Users/m/Desktop/others/myHub/node-demo1/src/index.js:75:9)\n    at process._tickCallback (internal/process/next_tick.js:68:7)',
+  exception: true,
+  date: 'Sun Jul 21 2019 10:02:05 GMT+0800 (GMT+08:00)',
+  process:
+   { pid: 2468,
+     uid: 501,
+     gid: 20,
+     cwd: '/Users/m/Desktop/others/myHub/node-demo1',
+     execPath: '/usr/local/bin/node',
+     version: 'v10.15.3',
+     argv:
+      [ '/usr/local/bin/node',
+        '/usr/local/lib/node_modules/pm2/lib/ProcessContainerFork.js' ],
+     memoryUsage:
+      { rss: 55136256,
+        heapTotal: 37470208,
+        heapUsed: 17385424,
+        external: 18409276 } },
+  os:
+   { loadavg: [ 2.06640625, 1.71533203125, 1.6591796875 ],
+     uptime: 47441 },
+  trace:
+   [ { column: 14,
+       file: 'net.js',
+       function: 'Server.setupListenHandle [as _listen2]',
+       line: 1270,
+       method: 'setupListenHandle [as _listen2]',
+       native: false },
+     { column: 12,
+       file: 'net.js',
+       function: 'listenInCluster',
+       line: 1318,
+       method: null,
+       native: false },
+     { column: 7,
+       file: 'net.js',
+       function: 'Server.listen',
+       line: 1405,
+       method: 'listen',
+       native: false },
+     { column: 19,
+       file:
+        '/Users/m/Desktop/others/myHub/node-demo1/node_modules/koa/lib/application.js',
+       function: 'Application.listen',
+       line: 65,
+       method: 'listen',
+       native: false },
+     { column: 9,
+       file: '/Users/m/Desktop/others/myHub/node-demo1/src/index.js',
+       function: 'listen',
+       line: 75,
+       method: null,
+       native: false },
+     { column: 7,
+       file: 'internal/process/next_tick.js',
+       function: 'process._tickCallback',
+       line: 68,
+       method: '_tickCallback',
+       native: false } ],
+  timestamp: '19-07-21 10:02:05' }

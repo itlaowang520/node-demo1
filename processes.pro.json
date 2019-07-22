@@ -1,7 +1,7 @@
 {
     "apps": [
         {
-            "name": "server-scaffold",
+            "name": "server-hospital",
             "script": "./output/index.js",
             "watch": true,
             "ignore_watch": [

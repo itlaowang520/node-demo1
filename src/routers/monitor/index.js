@@ -2,7 +2,7 @@
 import Router from 'koa-router';
 import itemRouter from './item';
 const monitorRouter = new Router({
-    prefix: '/monitor'
+    prefix: '/hospital'
 });
 monitorRouter.use(async(context, next) => {
     // if (context.req.method.toLowerCase() !== 'get') {

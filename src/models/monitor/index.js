@@ -1,7 +1,7 @@
 import { getCollection } from '../index';
 import { ObjectId } from 'mongodb';
 
-const collectionName = 'monitor';
+const collectionName = 'hospital';
 
 /**
  * 获取monitorConfig列表
